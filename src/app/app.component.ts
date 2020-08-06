@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import { Chart } from 'chart.js';
 import {CoreServiceService} from '../core/core-service.service';
-import {interval, Observable} from 'rxjs';
+import {interval} from 'rxjs';
 
 @Component({
   selector: 'app-root',
